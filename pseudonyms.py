@@ -145,11 +145,11 @@ last = (
 )
 
 while True:
-    firstName = random.choice(first)
-    lastName = random.choice(last)
+    first_name = random.choice(first)
+    last_name = random.choice(last)
 
     print("\n\n")
-    print(f"{firstName} {lastName}", file=sys.stderr)
+    print(f"{first_name} {last_name}", file=sys.stderr)
     print("\n\n")
 
     try_again = input("\n\nTry again? (Press Enter else type 'n' to quit)\n")
